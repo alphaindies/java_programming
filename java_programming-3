@@ -1,0 +1,28 @@
+#  Calculate CGST and SGST for a product and print the total price to pay {CGST=9%, SGST=11%}
+
+#java programming
+
+  
+import java.util.Scanner;
+
+public class GST {
+	public static void calculations(int amt) {
+		float cgst=(amt/100)*8;
+		 System.out.println("your CGST is:"  +cgst);
+		
+		
+		float sgst=(amt/100)*10;
+
+		   System.out.println("your SGST is:"  +sgst);
+		   System.out.println("Total price you have to pay:"+(cgst+sgst));
+	   
+	}
+   public static void main(String args[]) {
+	   Scanner sc=new Scanner(System.in);
+	   System.out.println("\nEnter the amount");
+	   int amt=sc.nextInt();
+	   
+	   calculations(amt);	  
+	   
+}
+   }
