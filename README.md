@@ -1,6 +1,10 @@
 # Write a program to read a four digit number through the keyboard and calculate the sum of its digits.
 # java_programming
-package da;
+ 
+ 
+ 
+ 
+
 import java.util.Scanner;
 
 public class sumOfDigits {
